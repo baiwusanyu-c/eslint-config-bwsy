@@ -1,0 +1,21 @@
+{
+  "name": "@baiwusanyu-c/eslint-config-monorepo",
+  "version": "0.26.1",
+  "private": true,
+  "packageManager": "pnpm@7.1.0",
+  "author": "baiwusanyu-c",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "pnpm -r run test",
+    "prepare": "pnpm -r run stub",
+    "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public"
+  },
+  "devDependencies": {
+    "@baiwusanyu-c/eslint-config": "*",
+    "bumpp": "^8.2.1",
+    "eslint": "^8.21.0",
+    "eslint-plugin-baiwusanyu-c": "workspace:*",
+    "typescript": "^4.7.4"
+  }
+}

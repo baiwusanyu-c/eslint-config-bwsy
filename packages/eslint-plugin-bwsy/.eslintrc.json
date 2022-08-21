@@ -1,0 +1,6 @@
+{
+  "extends": "@baiwusanyu-c",
+  "plugins": [
+    "baiwusanyu-c"
+  ]
+}
