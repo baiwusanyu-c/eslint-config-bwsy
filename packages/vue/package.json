@@ -1,0 +1,24 @@
+{
+  "name": "@baiwusanyu/eslint-config-vue",
+  "version": "1.0.5",
+  "description": "",
+  "author": "",
+  "license": "MIT",
+  "keywords": [
+    "eslint-config"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "@baiwusanyu/eslint-config-ts": "^1.0.4",
+    "eslint-plugin-vue": "^9.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.21.0"
+  }
+}

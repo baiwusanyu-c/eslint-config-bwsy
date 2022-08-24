@@ -1,0 +1,26 @@
+{
+  "name": "eslint-plugin-baiwusanyu",
+  "version": "1.0.5",
+  "license": "MIT",
+  "homepage": "",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rimraf dist && unbuild",
+    "stub": "unbuild --stub",
+    "test": "vitest",
+    "prepublishOnly": "pnpm run build"
+  },
+  "dependencies": {
+    "@typescript-eslint/utils": "^5.32.0"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "unbuild": "^0.7.6",
+    "vitest": "^0.21.0"
+  }
+}
