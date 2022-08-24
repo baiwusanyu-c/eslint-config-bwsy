@@ -1,6 +1,6 @@
 # @baiwusanyu-c/eslint-config
 
-[![npm](https://img.shields.io/npm/v/@baiwusanyu-c/eslint-config?color=a1b858&label=)](https://npmjs.com/package/@baiwusanyu-c/eslint-config)
+# copy from antfu
 
 - Single quotes, no semi
 - Auto fix for formatting (aimed to be used standalone without Prettier)
