@@ -2,9 +2,10 @@
   "name": "eslint-plugin-baiwusanyu-c",
   "version": "1.0.0",
   "license": "MIT",
-  "homepage": "https://github.com/baiwusanyu-c/eslint-config",
+  "homepage": "https://github.com/baiwusanyu-c/eslint-config-bwsy",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
+  "private": false,
   "types": "./dist/index.d.ts",
   "files": [
     "dist"

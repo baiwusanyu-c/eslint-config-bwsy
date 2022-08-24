@@ -1,8 +1,9 @@
 {
-  "name": "@baiwusanyu-c/eslint-config-vue",
+  "name": "@baiwusanyu/eslint-config-vue",
   "version": "1.0.0",
   "description": "",
   "author": "baiwusanyu-c",
+  "private": false,
   "license": "MIT",
   "keywords": [
     "eslint-config"

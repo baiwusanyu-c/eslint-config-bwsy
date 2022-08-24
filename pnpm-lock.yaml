@@ -88,11 +88,13 @@ importers:
     specifiers:
       '@typescript-eslint/utils': ^5.32.0
       unbuild: ^0.7.6
+      vite: ^3.0.9
       vitest: ^0.21.0
     dependencies:
       '@typescript-eslint/utils': 5.33.1
     devDependencies:
       unbuild: 0.7.6
+      vite: 3.0.9
       vitest: 0.21.1
 
   packages/react:
