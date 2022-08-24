@@ -1,6 +1,6 @@
 {
   "name": "@baiwusanyu-c/eslint-config",
-  "version": "0.26.1",
+  "version": "1.0.0",
   "description": "Anthony's ESLint config",
   "author": "baiwusanyu-c",
   "license": "MIT",

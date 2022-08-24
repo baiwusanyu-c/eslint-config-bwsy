@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-baiwusanyu-c",
-  "version": "0.26.1",
+  "version": "1.0.0",
   "license": "MIT",
   "homepage": "https://github.com/baiwusanyu-c/eslint-config",
   "main": "./dist/index.cjs",
@@ -20,6 +20,7 @@
   },
   "devDependencies": {
     "unbuild": "^0.7.6",
+    "vite": "^3.0.9",
     "vitest": "^0.21.0"
   }
 }
