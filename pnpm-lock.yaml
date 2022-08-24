@@ -4,13 +4,13 @@ importers:
 
   .:
     specifiers:
-      '@baiwusanyu-c/eslint-config': '*'
+      '@baiwusanyu/eslint-config': '*'
       bumpp: ^8.2.1
       eslint: ^8.21.0
       eslint-plugin-baiwusanyu-c: workspace:*
       typescript: ^4.7.4
     devDependencies:
-      '@baiwusanyu-c/eslint-config': link:packages/all
+      '@baiwusanyu/eslint-config': link:packages/all
       bumpp: 8.2.1
       eslint: 8.22.0
       eslint-plugin-baiwusanyu-c: link:packages/eslint-plugin-bwsy
@@ -18,8 +18,8 @@ importers:
 
   packages/all:
     specifiers:
-      '@baiwusanyu-c/eslint-config-react': workspace:*
-      '@baiwusanyu-c/eslint-config-vue': workspace:*
+      '@baiwusanyu/eslint-config-react': workspace:*
+      '@baiwusanyu/eslint-config-vue': workspace:*
       '@typescript-eslint/eslint-plugin': ^5.32.0
       '@typescript-eslint/parser': ^5.32.0
       eslint: ^8.21.0
@@ -35,8 +35,8 @@ importers:
       jsonc-eslint-parser: ^2.1.0
       yaml-eslint-parser: ^1.1.0
     dependencies:
-      '@baiwusanyu-c/eslint-config-react': link:../react
-      '@baiwusanyu-c/eslint-config-vue': link:../vue
+      '@baiwusanyu/eslint-config-react': link:../react
+      '@baiwusanyu/eslint-config-vue': link:../vue
       '@typescript-eslint/eslint-plugin': 5.33.1_3bh5nkk7utn7e74vrwtv6rxmt4
       '@typescript-eslint/parser': 5.33.1_eslint@8.22.0
       eslint-plugin-eslint-comments: 3.2.0_eslint@8.22.0
@@ -99,13 +99,13 @@ importers:
 
   packages/react:
     specifiers:
-      '@baiwusanyu-c/eslint-config-ts': workspace:*
+      '@baiwusanyu/eslint-config-ts': workspace:*
       eslint: ^8.21.0
       eslint-plugin-react: ^7.30.1
       react: ^18.2.0
       typescript: ^4.7.4
     dependencies:
-      '@baiwusanyu-c/eslint-config-ts': link:../typescript
+      '@baiwusanyu/eslint-config-ts': link:../typescript
       eslint-plugin-react: 7.30.1_eslint@8.22.0
     devDependencies:
       eslint: 8.22.0
@@ -114,12 +114,12 @@ importers:
 
   packages/typescript:
     specifiers:
-      '@baiwusanyu-c/eslint-config-basic': workspace:*
+      '@baiwusanyu/eslint-config-basic': workspace:*
       '@typescript-eslint/eslint-plugin': ^5.32.0
       '@typescript-eslint/parser': ^5.32.0
       eslint: ^8.21.0
     dependencies:
-      '@baiwusanyu-c/eslint-config-basic': link:../basic
+      '@baiwusanyu/eslint-config-basic': link:../basic
       '@typescript-eslint/eslint-plugin': 5.33.1_3bh5nkk7utn7e74vrwtv6rxmt4
       '@typescript-eslint/parser': 5.33.1_eslint@8.22.0
     devDependencies:
@@ -127,11 +127,11 @@ importers:
 
   packages/vue:
     specifiers:
-      '@baiwusanyu-c/eslint-config-ts': workspace:*
+      '@baiwusanyu/eslint-config-ts': workspace:*
       eslint: ^8.21.0
       eslint-plugin-vue: ^9.3.0
     dependencies:
-      '@baiwusanyu-c/eslint-config-ts': link:../typescript
+      '@baiwusanyu/eslint-config-ts': link:../typescript
       eslint-plugin-vue: 9.3.0_eslint@8.22.0
     devDependencies:
       eslint: 8.22.0

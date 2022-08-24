@@ -1,5 +1,5 @@
 {
-  "extends": "@baiwusanyu-c",
+  "extends": "@baiwusanyu",
   "plugins": [
     "baiwusanyu-c"
   ]

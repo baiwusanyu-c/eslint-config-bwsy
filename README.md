@@ -1,4 +1,4 @@
-# @baiwusanyu-c/eslint-config
+# @baiwusanyu/eslint-config
 
 # copy from antfu
 
@@ -14,14 +14,14 @@
 ### Install
 
 ```bash
-pnpm add -D eslint @baiwusanyu-c/eslint-config
+pnpm add -D eslint @baiwusanyu/eslint-config
 ```
 
 ### Config `.eslintrc`
 
 ```json
 {
-  "extends": "@baiwusanyu-c"
+  "extends": "@baiwusanyu"
 }
 ```
 

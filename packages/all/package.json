@@ -17,8 +17,8 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@baiwusanyu-c/eslint-config-react": "workspace:*",
-    "@baiwusanyu-c/eslint-config-vue": "workspace:*",
+    "@baiwusanyu/eslint-config-react": "workspace:*",
+    "@baiwusanyu/eslint-config-vue": "workspace:*",
     "@typescript-eslint/eslint-plugin": "^5.32.0",
     "@typescript-eslint/parser": "^5.32.0",
     "eslint-plugin-eslint-comments": "^3.2.0",
