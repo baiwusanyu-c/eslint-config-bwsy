@@ -19,7 +19,7 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@baiwusanyu/eslint-config-ts": "^1.0.4",
+    "@baiwusanyu/eslint-config-ts": "^1.0.5",
     "eslint-plugin-react": "^7.30.1"
   },
   "devDependencies": {

@@ -15,7 +15,7 @@
     "@baiwusanyu/eslint-config": "*",
     "bumpp": "^8.2.1",
     "eslint": "^8.21.0",
-    "eslint-plugin-baiwusanyu": "^1.0.4",
+    "eslint-plugin-baiwusanyu": "^1.0.5",
     "typescript": "^4.7.4"
   }
 }

@@ -19,7 +19,7 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "eslint-plugin-baiwusanyu": "^1.0.4",
+    "eslint-plugin-baiwusanyu": "^1.0.5",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-html": "^7.1.0",
     "eslint-plugin-import": "^2.26.0",
