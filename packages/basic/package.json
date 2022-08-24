@@ -1,6 +1,6 @@
 {
   "name": "@baiwusanyu/eslint-config-basic",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "author": "baiwusanyu-c",
   "private": false,
@@ -20,7 +20,7 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "eslint-plugin-baiwusanyu-c": "workspace:*",
+    "eslint-plugin-baiwusanyu": "workspace:*",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-html": "^7.1.0",
     "eslint-plugin-import": "^2.26.0",

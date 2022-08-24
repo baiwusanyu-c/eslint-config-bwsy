@@ -1,6 +1,6 @@
 {
-  "name": "eslint-plugin-baiwusanyu-c",
-  "version": "1.0.1",
+  "name": "eslint-plugin-baiwusanyu",
+  "version": "1.0.2",
   "license": "MIT",
   "homepage": "https://github.com/baiwusanyu-c/eslint-config-bwsy",
   "main": "./dist/index.cjs",
