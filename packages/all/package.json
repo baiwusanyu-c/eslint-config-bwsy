@@ -1,10 +1,11 @@
 {
-  "name": "@baiwusanyu-c/eslint-config",
+  "name": "@baiwusanyu/eslint-config",
   "version": "1.0.0",
-  "description": "Anthony's ESLint config",
+  "description": "Baiwusanyu's ESLint config",
   "author": "baiwusanyu-c",
   "license": "MIT",
-  "homepage": "https://github.com/baiwusanyu-c/eslint-config",
+  "homepage": "https://github.com/baiwusanyu-c/eslint-config-bwsy",
+  "private": false,
   "keywords": [
     "eslint-config"
   ],
