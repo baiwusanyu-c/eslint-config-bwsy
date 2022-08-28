@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-baiwusanyu",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "license": "MIT",
   "homepage": "",
   "main": "./dist/index.cjs",
@@ -16,7 +16,7 @@
     "prepublishOnly": "pnpm run build"
   },
   "dependencies": {
-    "@typescript-eslint/utils": "^5.32.0"
+    "@typescript-eslint/utils": "^5.35.1"
   },
   "devDependencies": {
     "rimraf": "^3.0.2",
