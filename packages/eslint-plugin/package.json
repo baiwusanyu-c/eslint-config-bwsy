@@ -1,7 +1,7 @@
 {
   "name": "@baiwusanyu/eslint-plugin",
   "description": "My eslint plugin",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "keywords": [
     "eslint-plugin"
   ],

@@ -1,6 +1,6 @@
 {
   "name": "@baiwusanyu/eslint-config-monorepo",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "private": false,
   "packageManager": "pnpm@7.1.0",
   "author": "baiwusanyu",
@@ -9,8 +9,9 @@
     "init": "pnpm install",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "test": "pnpm -r run test",
-    "prepare": "pnpm -r --parallel run stub",
+    "stub": "pnpm -r --parallel run stub",
+    "build": "pnpm -r build",
+    "prepare": "pnpm run build",
     "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public"
   },
   "devDependencies": {
