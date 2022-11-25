@@ -1,6 +1,6 @@
 # @baiwusanyu/eslint-config
 
-# copy from antfu
+## copy from [chris](https://github.com/zyyv)
 
 - Single quotes, no semi
 - Auto fix for formatting (aimed to be used standalone without Prettier)
@@ -52,3 +52,4 @@ Create `.vscode/settings.json`
   }
 }
 ```
+
