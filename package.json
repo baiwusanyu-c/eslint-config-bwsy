@@ -1,21 +1,26 @@
 {
   "name": "@baiwusanyu/eslint-config-monorepo",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "private": false,
   "packageManager": "pnpm@7.1.0",
-  "author": "",
+  "author": "baiwusanyu",
   "license": "MIT",
   "scripts": {
+    "init": "pnpm install",
     "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "test": "pnpm -r run test",
-    "prepare": "pnpm -r run stub",
+    "prepare": "pnpm -r --parallel run stub",
     "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public"
   },
   "devDependencies": {
-    "@baiwusanyu/eslint-config": "*",
+    "@baiwusanyu/eslint-config": "workspace:*",
+    "@baiwusanyu/eslint-plugin": "workspace:*",
+    "@types/react": "^18.0.25",
     "bumpp": "^8.2.1",
-    "eslint": "^8.21.0",
-    "eslint-plugin-baiwusanyu": "^1.0.5",
-    "typescript": "^4.7.4"
+    "eslint": "^8.27.0",
+    "react": "^18.1.0",
+    "typescript": "^4.8.4",
+    "unbuild": "^0.9.4"
   }
 }
