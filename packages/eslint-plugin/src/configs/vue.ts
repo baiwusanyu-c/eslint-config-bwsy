@@ -32,6 +32,7 @@ export default defineConfig({
         'vue/no-v-html': 'off',
         'vue/require-default-prop': 'off',
         'vue/multi-word-component-names': 'off',
+        'vue/no-irregular-whitespace': 'off',
         'vue/block-tag-newline': ['error', {
           singleline: 'always',
           multiline: 'always',

@@ -107,7 +107,14 @@ export default defineConfig({
     // promise
     'promise/always-return': 'off',
     'promise/catch-or-return': 'off',
+    'promise/no-nesting': 'off',
+    'promise/no-callback-in-promise': 'off',
 
+    'multiline-ternary': 'off',
+    'no-irregular-whitespace': 'off',
+    'no-cond-assign': 'off',
+    'no-unmodified-loop-condition': 'off',
+    'n/no-callback-literal': 'off',
     // unicorns
     ...unicornRules,
   },

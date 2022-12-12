@@ -111,10 +111,10 @@ export default defineRules({
   'react/jsx-filename-extension': ['error', { extensions: ['.jsx', '.tsx'] }],
   // Validate props indentation in JSX
   // 验证 JSX 中的 props 缩进
-  'react/jsx-indent-props': ['error', 2],
+  'react/jsx-indent-props': 'off',
   // Validate JSX indentation
   // 验证 JSX 缩进
-  'react/jsx-indent': ['error', 2],
+  'react/jsx-indent': 'off',
   'react/jsx-key': [
     'error',
     {

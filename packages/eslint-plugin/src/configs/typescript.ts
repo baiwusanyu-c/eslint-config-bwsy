@@ -50,7 +50,7 @@ export default defineConfig({
         '@typescript-eslint/space-before-function-paren': ['error', 'never'],
 
         // TS
-        '@typescript-eslint/ban-ts-comment': ['error', { 'ts-ignore': 'allow-with-description' }],
+        '@typescript-eslint/ban-ts-comment': ['warn', { 'ts-ignore': 'allow-with-description' }],
         '@typescript-eslint/member-delimiter-style': [
           'error',
           {
@@ -65,6 +65,7 @@ export default defineConfig({
         '@typescript-eslint/prefer-ts-expect-error': 'error',
 
         // off
+        '@typescript-eslint/no-this-alia': 'off',
         '@typescript-eslint/naming-convention': 'off',
         '@typescript-eslint/explicit-function-return-type': 'off',
         '@typescript-eslint/explicit-member-accessibility': 'off',
@@ -78,6 +79,7 @@ export default defineConfig({
         '@typescript-eslint/ban-types': 'off',
         '@typescript-eslint/no-var-requires': 'off',
         '@typescript-eslint/no-namespace': 'off',
+        '@typescript-eslint/no-non-null-asserted-optional-chain': 'off',
       },
     },
   ],
