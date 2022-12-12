@@ -112,7 +112,6 @@ export default defineConfig({
 
     'multiline-ternary': 'off',
     'no-irregular-whitespace': 'off',
-    'no-cond-assign': 'off',
     'no-unmodified-loop-condition': 'off',
     'n/no-callback-literal': 'off',
     // unicorns

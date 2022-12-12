@@ -33,7 +33,7 @@ export default defineConfig({
     'camelcase': 'off',
     'comma-dangle': ['error', 'always-multiline'],
     'no-console': 'off',
-    'no-cond-assign': ['error', 'always'],
+    'no-cond-assign': 'off',
     'no-return-await': 'error',
     'operator-linebreak': ['error', 'before'],
     'space-before-function-paren': ['error', 'never'],
