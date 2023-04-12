@@ -1,7 +1,7 @@
 {
   "name": "@baiwusanyu/eslint-plugin",
   "description": "My eslint plugin",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "keywords": [
     "eslint-plugin"
   ],
@@ -28,29 +28,29 @@
     "access": "public"
   },
   "dependencies": {
-    "@next/eslint-plugin-next": "^13.1.1",
-    "@typescript-eslint/eslint-plugin": "^5.48.1",
-    "@typescript-eslint/parser": "^5.48.1",
+    "@next/eslint-plugin-next": "^13.3.0",
+    "@typescript-eslint/eslint-plugin": "^5.58.0",
+    "@typescript-eslint/parser": "^5.58.0",
     "eslint-config-standard": "^17.0.0",
-    "eslint-import-resolver-typescript": "^3.5.3",
+    "eslint-import-resolver-typescript": "^3.5.5",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-html": "^7.1.0",
-    "eslint-plugin-import": "^2.27.2",
-    "eslint-plugin-jsonc": "^2.6.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsonc": "^2.7.0",
     "eslint-plugin-jsx-a11y": "^6.7.1",
     "eslint-plugin-markdown": "^3.0.0",
-    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-n": "^15.7.0",
     "eslint-plugin-promise": "^6.1.1",
-    "eslint-plugin-react": "^7.32.0",
+    "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-unicorn": "^46.0.0",
-    "eslint-plugin-vue": "^9.8.0",
-    "eslint-plugin-yml": "^1.4.0",
-    "jsonc-eslint-parser": "^2.1.0",
-    "yaml-eslint-parser": "^1.1.0"
+    "eslint-plugin-vue": "^9.10.0",
+    "eslint-plugin-yml": "^1.5.0",
+    "jsonc-eslint-parser": "^2.2.0",
+    "yaml-eslint-parser": "^1.2.0"
   },
   "devDependencies": {
-    "@babel/types": "^7.17.10",
-    "@typescript-eslint/utils": "^5.48.1"
+    "@babel/types": "^7.21.4",
+    "@typescript-eslint/utils": "^5.58.0"
   }
 }

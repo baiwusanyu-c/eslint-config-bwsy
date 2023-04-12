@@ -1,7 +1,7 @@
 {
   "name": "@baiwusanyu/eslint-config-monorepo",
   "private": false,
-  "version": "1.0.11",
+  "version": "1.0.12",
   "packageManager": "pnpm@7.1.0",
   "license": "MIT",
   "author": "baiwusanyu",
@@ -17,11 +17,11 @@
   "devDependencies": {
     "@baiwusanyu/eslint-config": "workspace:*",
     "@baiwusanyu/eslint-plugin": "workspace:*",
-    "@types/react": "^18.0.26",
+    "@types/react": "^18.0.34",
     "bumpp": "^9.1.0",
-    "eslint": "^8.31.0",
+    "eslint": "^8.38.0",
     "react": "^18.2.0",
     "typescript": "^5.0.4",
-    "unbuild": "^1.0.2"
+    "unbuild": "^1.2.0"
   }
 }

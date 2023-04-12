@@ -1,7 +1,7 @@
 {
   "name": "@baiwusanyu/eslint-config",
   "description": "My ESLint config",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "keywords": [
     "eslint-config"
   ],
@@ -23,7 +23,7 @@
     "build": "unbuild"
   },
   "peerDependencies": {
-    "eslint": "^8.0.0"
+    "eslint": "^8.38.0"
   },
   "publishConfig": {
     "access": "public"
