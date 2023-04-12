@@ -18,7 +18,7 @@
     "@baiwusanyu/eslint-config": "workspace:*",
     "@baiwusanyu/eslint-plugin": "workspace:*",
     "@types/react": "^18.0.26",
-    "bumpp": "^8.2.1",
+    "bumpp": "^9.1.0",
     "eslint": "^8.31.0",
     "react": "^18.2.0",
     "typescript": "^4.9.4",
