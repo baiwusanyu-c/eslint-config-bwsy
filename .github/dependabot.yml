@@ -1,7 +1,21 @@
 version: 2
 updates:
-  - package-ecosystem: gitsubmodule
+  - package-ecosystem: npm
     directory: /
+    schedule:
+      interval: monthly
+    open-pull-requests-limit: 10
+    allow:
+      - dependency-type: all
+  - package-ecosystem: npm
+    directory: /packages/eslint-config
+    schedule:
+      interval: monthly
+    open-pull-requests-limit: 10
+    allow:
+      - dependency-type: all
+  - package-ecosystem: npm
+    directory: /packages/eslint-config
     schedule:
       interval: monthly
     open-pull-requests-limit: 10
