@@ -10,14 +10,14 @@ updates:
   - package-ecosystem: npm
     directory: /packages/eslint-config
     schedule:
-      interval: monthly
+      interval: daily
     open-pull-requests-limit: 10
     allow:
       - dependency-type: all
   - package-ecosystem: npm
     directory: /packages/eslint-plugin
     schedule:
-      interval: monthly
+      interval: daily
     open-pull-requests-limit: 10
     allow:
       - dependency-type: all
