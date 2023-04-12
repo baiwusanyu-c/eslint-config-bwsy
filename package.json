@@ -1,7 +1,7 @@
 {
   "name": "@baiwusanyu/eslint-config-monorepo",
   "private": false,
-  "version": "1.0.10",
+  "version": "1.0.11",
   "packageManager": "pnpm@7.1.0",
   "license": "MIT",
   "author": "baiwusanyu",
