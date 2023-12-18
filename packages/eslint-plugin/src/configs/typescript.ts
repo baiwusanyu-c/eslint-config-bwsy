@@ -1,4 +1,3 @@
-
 import { defineConfig, fromEntries, ruleFromStandard } from '../utils'
 import { TSEquivalents, resolverExtensionsWithTS } from '../constants'
 

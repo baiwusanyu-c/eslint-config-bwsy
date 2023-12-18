@@ -2,7 +2,7 @@
   "name": "@baiwusanyu/eslint-config-monorepo",
   "private": false,
   "version": "1.0.15",
-  "packageManager": "pnpm@8.6.12",
+  "packageManager": "pnpm@8.12.1",
   "license": "MIT",
   "author": "baiwusanyu",
   "scripts": {
@@ -13,16 +13,16 @@
     "build": "pnpm -r build",
     "release": "bumpp package.json packages/*/package.json --commit --push --tag",
     "publish:npm": "pnpm -r publish --access public --no-git-checks",
-    "update:deps": "npx taze major -w -r && pnpm run init"
+    "update:deps": "npx --yes taze major -w -r && pnpm run init"
   },
   "devDependencies": {
     "@baiwusanyu/eslint-config": "workspace:*",
     "@baiwusanyu/eslint-plugin": "workspace:*",
-    "@types/react": "^18.2.20",
-    "bumpp": "^9.1.1",
-    "eslint": "^8.47.0",
+    "@types/react": "^18.2.45",
+    "bumpp": "^9.2.1",
+    "eslint": "^8.56.0",
     "react": "^18.2.0",
-    "typescript": "^5.1.6",
-    "unbuild": "^1.2.1"
+    "typescript": "^5.3.3",
+    "unbuild": "^2.0.0"
   }
 }
