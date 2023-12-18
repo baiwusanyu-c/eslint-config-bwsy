@@ -18,6 +18,7 @@
   "devDependencies": {
     "@baiwusanyu/eslint-config": "workspace:*",
     "@baiwusanyu/eslint-plugin": "workspace:*",
+    "@baiwusanyu/prettier-config": "workspace:*",
     "@types/react": "^18.2.45",
     "bumpp": "^9.2.1",
     "eslint": "^8.56.0",
